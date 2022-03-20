@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>solar sounds</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+
+      #canvas-container {
+          margin-top: 3%;
+          text-align: center;
+      }
+      #controls{
+        width: 700px;
+        height: 200px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      #controls div{
+        float:left;
+      }
+      button{
+        background-color: white;
+        color:grey;
+        border: solid grey 1px;
+        text-align: center;
+        display: inline-block;
+        font-size: 11px;
+        margin: 4px 2px;
+        width: 50px;
+        height: 15px;
+        cursor: pointer;
+      }
+      .sun-active{
+        background-color: gold;
+        border: gold;
+        color: white;
+      }
+      .mercury-active{
+        background-color: sandybrown;
+        border: sandybrown;
+        color: white;
+      }
+      .venus-active{
+        background-color: pink;
+        border:pink;
+        color: white;
+      }
+      .earth-active{
+        background-color: cornflowerblue;
+        border: cornflowerblue;
+        color: white;
+      }
+      .mars-active{
+        background-color: firebrick;
+        border: firebrick;
+        color: white;
+      }
+      .jupiter-active{
+        background-color: tan;
+        border: tan;
+        color: white;
+      }
+      .saturn-active{
+        background-color: orange;
+        border: orange;
+        color: white;
+      }
+      .uranus-active{
+        background-color: skyblue;
+        border:skyblue;
+        color: white;
+      }
+      .neptune-active{
+        background-color: slateblue;
+        border: slateblue;
+        color: white;
+      }
+      .pluto-active{
+        background-color: slategrey;
+        border: slategrey;
+        color: white;
+      }
+    </style>
+
+    <script src="js/vendor/p5.min.js"></script>
+    <script src="js/vendor/p5.sound.min.js"></script>
+    <script src="js/vendor/Tone.js"></script>
+  </head>
+  <body>
+
+        <div id="canvas-container"></div>
+
+        <div id="controls">
+
+          <button id="pluto">pluto</button>
+          <button id="neptune">neptune</button>
+          <button id="uranus">uranus</button>
+          <button id="saturn">saturn</button>
+          <button id="jupiter">jupiter</button>
+          <button id="mars">mars</button>
+          <button id="earth">earth</button>
+          <button id="venus">venus</button>
+          <button id="mercury">mercury</button>
+          <button id="sun">sun</button>
+        </div>
+
+              <div class="back-button">
+                  <a href="/"><</a>
+              </div>
+
+            </div>
+
+
+    <script src="js/solarsounds.js"></script>
+  </body>
+</html>
